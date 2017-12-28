@@ -19,10 +19,19 @@
 		6CCA50481FF5344300EDCFA9 /* Rswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCA50421FF52BCC00EDCFA9 /* Rswift.framework */; };
 		6CCA504A1FF535B000EDCFA9 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA50491FF535B000EDCFA9 /* R.generated.swift */; };
 		6CCA504D1FF5361A00EDCFA9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CCA504F1FF5361A00EDCFA9 /* Localizable.strings */; };
-		6CCA50511FF547F600EDCFA9 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA50501FF547F600EDCFA9 /* Font.swift */; };
-		6CCA50531FF5481A00EDCFA9 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA50521FF5481A00EDCFA9 /* Design.swift */; };
 		6CCA505C1FF54BCD00EDCFA9 /* OptionConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA505B1FF54BCD00EDCFA9 /* OptionConditionViewController.swift */; };
 		6CCA505E1FF54BE700EDCFA9 /* DateConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA505D1FF54BE700EDCFA9 /* DateConditionViewController.swift */; };
+		6CCA50601FF54CAD00EDCFA9 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA505F1FF54CAD00EDCFA9 /* ResultViewController.swift */; };
+		6CCA50691FF55D3500EDCFA9 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA50641FF55D3500EDCFA9 /* Font.swift */; };
+		6CCA506A1FF55D3500EDCFA9 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA50651FF55D3500EDCFA9 /* Design.swift */; };
+		6CCA506B1FF55D3500EDCFA9 /* Condition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA50671FF55D3500EDCFA9 /* Condition.swift */; };
+		6CCA506D1FF55D7000EDCFA9 /* SearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA506C1FF55D7000EDCFA9 /* SearchAPI.swift */; };
+		6CCA506F1FF55DAB00EDCFA9 /* TopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA506E1FF55DAB00EDCFA9 /* TopViewModel.swift */; };
+		6CCA50711FF55DBD00EDCFA9 /* OptionConditionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA50701FF55DBD00EDCFA9 /* OptionConditionViewModel.swift */; };
+		6CCA50731FF55DCF00EDCFA9 /* DateConditionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA50721FF55DCF00EDCFA9 /* DateConditionViewModel.swift */; };
+		6CCA50751FF55DDE00EDCFA9 /* ResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA50741FF55DDE00EDCFA9 /* ResultViewModel.swift */; };
+		6CCA50771FF5709800EDCFA9 /* SwiftDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCA50761FF5709800EDCFA9 /* SwiftDate.framework */; };
+		6CCA50791FF570AC00EDCFA9 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCA50781FF570AC00EDCFA9 /* PromiseKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +60,6 @@
 		6CCA50421FF52BCC00EDCFA9 /* Rswift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Rswift.framework; path = Carthage/Build/iOS/Rswift.framework; sourceTree = "<group>"; };
 		6CCA50491FF535B000EDCFA9 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		6CCA504E1FF5361A00EDCFA9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
-		6CCA50501FF547F600EDCFA9 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
-		6CCA50521FF5481A00EDCFA9 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
 		6CCA50541FF548B400EDCFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CCA50551FF548B500EDCFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CCA50561FF548C700EDCFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -60,6 +67,17 @@
 		6CCA505A1FF548D800EDCFA9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		6CCA505B1FF54BCD00EDCFA9 /* OptionConditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionConditionViewController.swift; sourceTree = "<group>"; };
 		6CCA505D1FF54BE700EDCFA9 /* DateConditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateConditionViewController.swift; sourceTree = "<group>"; };
+		6CCA505F1FF54CAD00EDCFA9 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		6CCA50641FF55D3500EDCFA9 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		6CCA50651FF55D3500EDCFA9 /* Design.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		6CCA50671FF55D3500EDCFA9 /* Condition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Condition.swift; sourceTree = "<group>"; };
+		6CCA506C1FF55D7000EDCFA9 /* SearchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAPI.swift; sourceTree = "<group>"; };
+		6CCA506E1FF55DAB00EDCFA9 /* TopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewModel.swift; sourceTree = "<group>"; };
+		6CCA50701FF55DBD00EDCFA9 /* OptionConditionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionConditionViewModel.swift; sourceTree = "<group>"; };
+		6CCA50721FF55DCF00EDCFA9 /* DateConditionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateConditionViewModel.swift; sourceTree = "<group>"; };
+		6CCA50741FF55DDE00EDCFA9 /* ResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewModel.swift; sourceTree = "<group>"; };
+		6CCA50761FF5709800EDCFA9 /* SwiftDate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftDate.framework; path = Carthage/Build/iOS/SwiftDate.framework; sourceTree = "<group>"; };
+		6CCA50781FF570AC00EDCFA9 /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = Carthage/Build/iOS/PromiseKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CCA50791FF570AC00EDCFA9 /* PromiseKit.framework in Frameworks */,
+				6CCA50771FF5709800EDCFA9 /* SwiftDate.framework in Frameworks */,
 				6CCA50481FF5344300EDCFA9 /* Rswift.framework in Frameworks */,
 				6CCA502E1FF51E9900EDCFA9 /* ObjectMapper.framework in Frameworks */,
 				6CCA502C1FF51E8E00EDCFA9 /* AlamofireObjectMapper.framework in Frameworks */,
@@ -132,6 +152,8 @@
 		6CCA50261FF51E6200EDCFA9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6CCA50781FF570AC00EDCFA9 /* PromiseKit.framework */,
+				6CCA50761FF5709800EDCFA9 /* SwiftDate.framework */,
 				6CCA50421FF52BCC00EDCFA9 /* Rswift.framework */,
 				6CCA502D1FF51E9900EDCFA9 /* ObjectMapper.framework */,
 				6CCA502B1FF51E8E00EDCFA9 /* AlamofireObjectMapper.framework */,
@@ -144,6 +166,10 @@
 		6CCA503A1FF5291C00EDCFA9 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				6CCA506E1FF55DAB00EDCFA9 /* TopViewModel.swift */,
+				6CCA50701FF55DBD00EDCFA9 /* OptionConditionViewModel.swift */,
+				6CCA50721FF55DCF00EDCFA9 /* DateConditionViewModel.swift */,
+				6CCA50741FF55DDE00EDCFA9 /* ResultViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -151,8 +177,9 @@
 		6CCA503B1FF5291C00EDCFA9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				6CCA50501FF547F600EDCFA9 /* Font.swift */,
-				6CCA50521FF5481A00EDCFA9 /* Design.swift */,
+				6CCA50681FF55D3500EDCFA9 /* API */,
+				6CCA50631FF55D3500EDCFA9 /* Common */,
+				6CCA50661FF55D3500EDCFA9 /* Condition */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -179,8 +206,34 @@
 				6CCA503F1FF5291C00EDCFA9 /* TopViewController.swift */,
 				6CCA505B1FF54BCD00EDCFA9 /* OptionConditionViewController.swift */,
 				6CCA505D1FF54BE700EDCFA9 /* DateConditionViewController.swift */,
+				6CCA505F1FF54CAD00EDCFA9 /* ResultViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6CCA50631FF55D3500EDCFA9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6CCA50641FF55D3500EDCFA9 /* Font.swift */,
+				6CCA50651FF55D3500EDCFA9 /* Design.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6CCA50661FF55D3500EDCFA9 /* Condition */ = {
+			isa = PBXGroup;
+			children = (
+				6CCA50671FF55D3500EDCFA9 /* Condition.swift */,
+			);
+			path = Condition;
+			sourceTree = "<group>";
+		};
+		6CCA50681FF55D3500EDCFA9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6CCA506C1FF55D7000EDCFA9 /* SearchAPI.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +348,8 @@
 				"$(SRCROOT)/Carthage/Build/iOS/AlamofireObjectMapper.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/ObjectMapper.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Rswift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/PromiseKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftDate.framework",
 			);
 			name = Carthage;
 			outputPaths = (
@@ -324,12 +379,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CCA50511FF547F600EDCFA9 /* Font.swift in Sources */,
 				6CCA50401FF5291C00EDCFA9 /* TopViewController.swift in Sources */,
+				6CCA50731FF55DCF00EDCFA9 /* DateConditionViewModel.swift in Sources */,
+				6CCA506B1FF55D3500EDCFA9 /* Condition.swift in Sources */,
+				6CCA506A1FF55D3500EDCFA9 /* Design.swift in Sources */,
+				6CCA50751FF55DDE00EDCFA9 /* ResultViewModel.swift in Sources */,
 				6CCA505E1FF54BE700EDCFA9 /* DateConditionViewController.swift in Sources */,
+				6CCA50691FF55D3500EDCFA9 /* Font.swift in Sources */,
+				6CCA50711FF55DBD00EDCFA9 /* OptionConditionViewModel.swift in Sources */,
+				6CCA506F1FF55DAB00EDCFA9 /* TopViewModel.swift in Sources */,
+				6CCA50601FF54CAD00EDCFA9 /* ResultViewController.swift in Sources */,
+				6CCA506D1FF55D7000EDCFA9 /* SearchAPI.swift in Sources */,
 				6CA66C431FF4EDEF005BAC62 /* AppDelegate.swift in Sources */,
 				6CCA504A1FF535B000EDCFA9 /* R.generated.swift in Sources */,
-				6CCA50531FF5481A00EDCFA9 /* Design.swift in Sources */,
 				6CCA505C1FF54BCD00EDCFA9 /* OptionConditionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

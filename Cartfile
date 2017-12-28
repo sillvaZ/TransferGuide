@@ -1,2 +1,4 @@
 github "tristanhimmelman/AlamofireObjectMapper"
+github "mxcl/PromiseKit"
 github "mac-cain13/R.swift.Library"
+github "malcommac/SwiftDate"

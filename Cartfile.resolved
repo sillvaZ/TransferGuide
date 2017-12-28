@@ -1,4 +1,6 @@
 github "Alamofire/Alamofire" "4.6.0"
 github "Hearst-DD/ObjectMapper" "3.1.0"
 github "mac-cain13/R.swift.Library" "v4.0.0"
+github "malcommac/SwiftDate" "4.5.1"
+github "mxcl/PromiseKit" "5.0.3"
 github "tristanhimmelman/AlamofireObjectMapper" "5.0.0"

@@ -30,7 +30,7 @@
         <!--Top View Controller-->
         <scene sceneID="yzP-3s-DYD">
             <objects>
-                <viewController id="IrG-s6-SuN" customClass="TopViewController" sceneMemberID="viewController">
+                <viewController id="IrG-s6-SuN" customClass="TopViewController" customModule="TransferGuide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ggw-Lb-JHZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,18 +64,20 @@
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YEx-Y6-0WU">
                                 <rect key="frame" x="16" y="260" width="163.5" height="44"/>
-                                <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="3sZ-IR-Ojr"/>
                                 </constraints>
                                 <state key="normal" title="手段選択">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="didTapOptionCondition:" destination="IrG-s6-SuN" eventType="touchUpInside" id="H9f-lt-gDc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z2P-qC-3vC">
                                 <rect key="frame" x="195.5" y="260" width="163.5" height="44"/>
-                                <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="xIO-oX-vHt"/>
                                 </constraints>
@@ -83,6 +85,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="didTapDateCondition:" destination="IrG-s6-SuN" eventType="touchUpInside" id="0sC-rc-KLT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iy9-d0-QbR">
                                 <rect key="frame" x="16" y="320" width="343" height="44"/>
@@ -94,6 +99,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="didTapSearch:" destination="IrG-s6-SuN" eventType="touchUpInside" id="kzt-lN-p7k"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -121,15 +129,24 @@
                         <viewLayoutGuide key="safeArea" id="xiC-Yi-VX7"/>
                     </view>
                     <navigationItem key="navigationItem" id="FFn-dj-hpN"/>
+                    <connections>
+                        <segue destination="CkZ-It-iky" kind="popoverPresentation" identifier="gotoOptionCondition" popoverAnchorView="ggw-Lb-JHZ" id="N7n-JU-1gW">
+                            <popoverArrowDirection key="popoverArrowDirection"/>
+                        </segue>
+                        <segue destination="7W5-dj-8ea" kind="popoverPresentation" identifier="gotoDateCondition" popoverAnchorView="ggw-Lb-JHZ" id="2iZ-gc-QMZ">
+                            <popoverArrowDirection key="popoverArrowDirection"/>
+                        </segue>
+                        <segue destination="Vqd-Ld-XwQ" kind="show" identifier="gotoResult" id="Cva-oo-7gN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Sj-Xw-8w1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="281" y="224"/>
         </scene>
-        <!--View Controller-->
+        <!--Option Condition View Controller-->
         <scene sceneID="KQ3-h5-CEJ">
             <objects>
-                <viewController id="CkZ-It-iky" sceneMemberID="viewController">
+                <viewController id="CkZ-It-iky" customClass="OptionConditionViewController" customModule="TransferGuide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lXg-Ia-OKo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -139,12 +156,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b2Y-Se-Pjh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="964" y="212"/>
+            <point key="canvasLocation" x="281" y="994"/>
         </scene>
-        <!--View Controller-->
+        <!--Date Condition View Controller-->
         <scene sceneID="fl0-uJ-fqO">
             <objects>
-                <viewController id="7W5-dj-8ea" sceneMemberID="viewController">
+                <viewController id="7W5-dj-8ea" customClass="DateConditionViewController" customModule="TransferGuide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yiq-RH-l4L">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -154,12 +171,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YlL-mK-f7N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="998" y="907"/>
+            <point key="canvasLocation" x="1038" y="995"/>
         </scene>
-        <!--View Controller-->
+        <!--Result View Controller-->
         <scene sceneID="mii-8Q-YAo">
             <objects>
-                <viewController id="Vqd-Ld-XwQ" sceneMemberID="viewController">
+                <viewController id="Vqd-Ld-XwQ" customClass="ResultViewController" customModule="TransferGuide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ic0-Yo-QKU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -169,7 +186,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ed2-Dk-e3a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1039" y="1621"/>
+            <point key="canvasLocation" x="1038" y="224"/>
         </scene>
     </scenes>
 </document>

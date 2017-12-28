@@ -6,4 +6,13 @@
 //  Copyright © 2017年 sillva. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+final class DateConditionViewController: UIViewController {
+    let viewModel = DateConditionViewModel()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+}
