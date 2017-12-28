@@ -8,11 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		6CA66C431FF4EDEF005BAC62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA66C421FF4EDEF005BAC62 /* AppDelegate.swift */; };
-		6CA66C451FF4EDEF005BAC62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA66C441FF4EDEF005BAC62 /* ViewController.swift */; };
 		6CA66C481FF4EDEF005BAC62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA66C461FF4EDEF005BAC62 /* Main.storyboard */; };
 		6CA66C4A1FF4EDEF005BAC62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA66C491FF4EDEF005BAC62 /* Assets.xcassets */; };
 		6CA66C4D1FF4EDEF005BAC62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA66C4B1FF4EDEF005BAC62 /* LaunchScreen.storyboard */; };
 		6CA66C581FF4EDF0005BAC62 /* TransferGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA66C571FF4EDF0005BAC62 /* TransferGuideTests.swift */; };
+		6CCA502A1FF51E8300EDCFA9 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCA50291FF51E8300EDCFA9 /* Alamofire.framework */; };
+		6CCA502C1FF51E8E00EDCFA9 /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCA502B1FF51E8E00EDCFA9 /* AlamofireObjectMapper.framework */; };
+		6CCA502E1FF51E9900EDCFA9 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCA502D1FF51E9900EDCFA9 /* ObjectMapper.framework */; };
+		6CCA50401FF5291C00EDCFA9 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA503F1FF5291C00EDCFA9 /* TopViewController.swift */; };
+		6CCA50481FF5344300EDCFA9 /* Rswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCA50421FF52BCC00EDCFA9 /* Rswift.framework */; };
+		6CCA504A1FF535B000EDCFA9 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA50491FF535B000EDCFA9 /* R.generated.swift */; };
+		6CCA504D1FF5361A00EDCFA9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CCA504F1FF5361A00EDCFA9 /* Localizable.strings */; };
+		6CCA50511FF547F600EDCFA9 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA50501FF547F600EDCFA9 /* Font.swift */; };
+		6CCA50531FF5481A00EDCFA9 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA50521FF5481A00EDCFA9 /* Design.swift */; };
+		6CCA505C1FF54BCD00EDCFA9 /* OptionConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA505B1FF54BCD00EDCFA9 /* OptionConditionViewController.swift */; };
+		6CCA505E1FF54BE700EDCFA9 /* DateConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA505D1FF54BE700EDCFA9 /* DateConditionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +38,28 @@
 /* Begin PBXFileReference section */
 		6CA66C3F1FF4EDEF005BAC62 /* TransferGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransferGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CA66C421FF4EDEF005BAC62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6CA66C441FF4EDEF005BAC62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6CA66C471FF4EDEF005BAC62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CA66C491FF4EDEF005BAC62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6CA66C4C1FF4EDEF005BAC62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CA66C4E1FF4EDEF005BAC62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CA66C531FF4EDF0005BAC62 /* TransferGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransferGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CA66C571FF4EDF0005BAC62 /* TransferGuideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferGuideTests.swift; sourceTree = "<group>"; };
 		6CA66C591FF4EDF0005BAC62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CCA50271FF51E6200EDCFA9 /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Alamofire.framework.dSYM; path = Carthage/Build/iOS/Alamofire.framework.dSYM; sourceTree = "<group>"; };
+		6CCA50291FF51E8300EDCFA9 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		6CCA502B1FF51E8E00EDCFA9 /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireObjectMapper.framework; path = Carthage/Build/iOS/AlamofireObjectMapper.framework; sourceTree = "<group>"; };
+		6CCA502D1FF51E9900EDCFA9 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		6CCA503F1FF5291C00EDCFA9 /* TopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		6CCA50421FF52BCC00EDCFA9 /* Rswift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Rswift.framework; path = Carthage/Build/iOS/Rswift.framework; sourceTree = "<group>"; };
+		6CCA50491FF535B000EDCFA9 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		6CCA504E1FF5361A00EDCFA9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6CCA50501FF547F600EDCFA9 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		6CCA50521FF5481A00EDCFA9 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		6CCA50541FF548B400EDCFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CCA50551FF548B500EDCFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CCA50561FF548C700EDCFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6CCA50581FF548D400EDCFA9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		6CCA505A1FF548D800EDCFA9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		6CCA505B1FF54BCD00EDCFA9 /* OptionConditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionConditionViewController.swift; sourceTree = "<group>"; };
+		6CCA505D1FF54BE700EDCFA9 /* DateConditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateConditionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +67,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CCA50481FF5344300EDCFA9 /* Rswift.framework in Frameworks */,
+				6CCA502E1FF51E9900EDCFA9 /* ObjectMapper.framework in Frameworks */,
+				6CCA502C1FF51E8E00EDCFA9 /* AlamofireObjectMapper.framework in Frameworks */,
+				6CCA502A1FF51E8300EDCFA9 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +90,7 @@
 				6CA66C411FF4EDEF005BAC62 /* TransferGuide */,
 				6CA66C561FF4EDF0005BAC62 /* TransferGuideTests */,
 				6CA66C401FF4EDEF005BAC62 /* Products */,
+				6CCA50261FF51E6200EDCFA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +106,16 @@
 		6CA66C411FF4EDEF005BAC62 /* TransferGuide */ = {
 			isa = PBXGroup;
 			children = (
+				6CCA503B1FF5291C00EDCFA9 /* Model */,
+				6CCA503C1FF5291C00EDCFA9 /* View */,
+				6CCA503A1FF5291C00EDCFA9 /* ViewModel */,
 				6CA66C421FF4EDEF005BAC62 /* AppDelegate.swift */,
-				6CA66C441FF4EDEF005BAC62 /* ViewController.swift */,
 				6CA66C461FF4EDEF005BAC62 /* Main.storyboard */,
 				6CA66C491FF4EDEF005BAC62 /* Assets.xcassets */,
 				6CA66C4B1FF4EDEF005BAC62 /* LaunchScreen.storyboard */,
 				6CA66C4E1FF4EDEF005BAC62 /* Info.plist */,
+				6CCA504F1FF5361A00EDCFA9 /* Localizable.strings */,
+				6CCA50491FF535B000EDCFA9 /* R.generated.swift */,
 			);
 			path = TransferGuide;
 			sourceTree = "<group>";
@@ -96,6 +129,60 @@
 			path = TransferGuideTests;
 			sourceTree = "<group>";
 		};
+		6CCA50261FF51E6200EDCFA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CCA50421FF52BCC00EDCFA9 /* Rswift.framework */,
+				6CCA502D1FF51E9900EDCFA9 /* ObjectMapper.framework */,
+				6CCA502B1FF51E8E00EDCFA9 /* AlamofireObjectMapper.framework */,
+				6CCA50291FF51E8300EDCFA9 /* Alamofire.framework */,
+				6CCA50271FF51E6200EDCFA9 /* Alamofire.framework.dSYM */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CCA503A1FF5291C00EDCFA9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6CCA503B1FF5291C00EDCFA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6CCA50501FF547F600EDCFA9 /* Font.swift */,
+				6CCA50521FF5481A00EDCFA9 /* Design.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6CCA503C1FF5291C00EDCFA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6CCA503D1FF5291C00EDCFA9 /* View */,
+				6CCA503E1FF5291C00EDCFA9 /* ViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6CCA503D1FF5291C00EDCFA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6CCA503E1FF5291C00EDCFA9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6CCA503F1FF5291C00EDCFA9 /* TopViewController.swift */,
+				6CCA505B1FF54BCD00EDCFA9 /* OptionConditionViewController.swift */,
+				6CCA505D1FF54BE700EDCFA9 /* DateConditionViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +193,8 @@
 				6CA66C3B1FF4EDEF005BAC62 /* Sources */,
 				6CA66C3C1FF4EDEF005BAC62 /* Frameworks */,
 				6CA66C3D1FF4EDEF005BAC62 /* Resources */,
+				6CCA502F1FF51EE100EDCFA9 /* Carthage */,
+				6CCA50471FF532F700EDCFA9 /* RSwift */,
 			);
 			buildRules = (
 			);
@@ -160,8 +249,8 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				ja,
 			);
 			mainGroup = 6CA66C361FF4EDEF005BAC62;
 			productRefGroup = 6CA66C401FF4EDEF005BAC62 /* Products */;
@@ -180,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CA66C4D1FF4EDEF005BAC62 /* LaunchScreen.storyboard in Resources */,
+				6CCA504D1FF5361A00EDCFA9 /* Localizable.strings in Resources */,
 				6CA66C4A1FF4EDEF005BAC62 /* Assets.xcassets in Resources */,
 				6CA66C481FF4EDEF005BAC62 /* Main.storyboard in Resources */,
 			);
@@ -194,13 +284,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6CCA502F1FF51EE100EDCFA9 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AlamofireObjectMapper.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ObjectMapper.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Rswift.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		6CCA50471FF532F700EDCFA9 /* RSwift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = RSwift;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/rswift\" generate \"$SRCROOT\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6CA66C3B1FF4EDEF005BAC62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CA66C451FF4EDEF005BAC62 /* ViewController.swift in Sources */,
+				6CCA50511FF547F600EDCFA9 /* Font.swift in Sources */,
+				6CCA50401FF5291C00EDCFA9 /* TopViewController.swift in Sources */,
+				6CCA505E1FF54BE700EDCFA9 /* DateConditionViewController.swift in Sources */,
 				6CA66C431FF4EDEF005BAC62 /* AppDelegate.swift in Sources */,
+				6CCA504A1FF535B000EDCFA9 /* R.generated.swift in Sources */,
+				6CCA50531FF5481A00EDCFA9 /* Design.swift in Sources */,
+				6CCA505C1FF54BCD00EDCFA9 /* OptionConditionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,7 +356,8 @@
 		6CA66C461FF4EDEF005BAC62 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6CA66C471FF4EDEF005BAC62 /* Base */,
+				6CCA50541FF548B400EDCFA9 /* Base */,
+				6CCA50581FF548D400EDCFA9 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -234,9 +365,19 @@
 		6CA66C4B1FF4EDEF005BAC62 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6CA66C4C1FF4EDEF005BAC62 /* Base */,
+				6CCA50551FF548B500EDCFA9 /* Base */,
+				6CCA505A1FF548D800EDCFA9 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6CCA504F1FF5361A00EDCFA9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CCA504E1FF5361A00EDCFA9 /* ja */,
+				6CCA50561FF548C700EDCFA9 /* Base */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -246,6 +387,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -303,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -354,12 +497,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TransferGuide/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.sillva.TransferGuide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -368,12 +515,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TransferGuide/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.sillva.TransferGuide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

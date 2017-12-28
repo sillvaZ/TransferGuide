@@ -1,0 +1,18 @@
+
+/* Class = "UITextField"; placeholder = "目的駅"; ObjectID = "3c7-4C-aHp"; */
+"3c7-4C-aHp.placeholder" = "目的駅";
+
+/* Class = "UITextField"; placeholder = "経由駅"; ObjectID = "E10-4T-ts3"; */
+"E10-4T-ts3.placeholder" = "経由駅";
+
+/* Class = "UITextField"; placeholder = "出発駅"; ObjectID = "F2I-U7-4vc"; */
+"F2I-U7-4vc.placeholder" = "出発駅";
+
+/* Class = "UIButton"; normalTitle = "検索"; ObjectID = "Iy9-d0-QbR"; */
+"Iy9-d0-QbR.normalTitle" = "検索";
+
+/* Class = "UIButton"; normalTitle = "手段選択"; ObjectID = "YEx-Y6-0WU"; */
+"YEx-Y6-0WU.normalTitle" = "手段選択";
+
+/* Class = "UIButton"; normalTitle = "時刻選択"; ObjectID = "z2P-qC-3vC"; */
+"z2P-qC-3vC.normalTitle" = "時刻選択";
